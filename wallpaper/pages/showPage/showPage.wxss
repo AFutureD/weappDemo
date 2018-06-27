@@ -1,0 +1,46 @@
+.container{
+    width: 750rpx;
+     height:  inherit;
+    /* margin-bottom: 100rpx; */
+}
+.wallpaperItem{
+    width: 750rpx;
+    /* margin-bottom: 100rpx;  */
+}
+.bottomEnd{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100rpx;
+    background-color: #202022;
+    padding: 0rpx;
+    margin: 0rpx;
+    display:flex;
+}
+.bottomImg{
+    width: 80rpx;
+    height: 80rpx;
+    background-color: #202022;
+}
+.bottomBtnShare{
+
+    width: 80rpx;
+    height: 80rpx;
+    margin-top:10rpx;
+    margin-bottom: 10rpx;
+    margin-left: 100auto;
+    margin-right: 100rpx;
+    background-color: #202022;
+    padding: 0rpx;
+    border:none;
+}
+.bottomBtnDown{
+    width: 80rpx;
+    height: 80rpx;
+    margin-top:10rpx;
+    margin-bottom: 10rpx;
+    margin-left: 100rpx;
+    margin-right: auto;
+    background-color: #202022;
+    padding: 0rpx;
+}

@@ -1,0 +1,19 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/showPage/showPage"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#202022",
+        "navigationBarTitleText": "Wallapaer",
+        "navigationBarTextStyle": "white",
+        "backgroundColorTop":"#202022",
+        "backgroundColor":"#202022",
+        "backgroundColorBottom":"#202022",
+        "enablePullDownRefresh":true
+
+    }
+    
+}

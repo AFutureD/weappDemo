@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container" style = "height:{{avaliableHeigh - 50}}px" >
+    <image class="wallpaperItem"  style = "height:{{avaliableHeigh - 50}}px" data-imgsrc = "{{imgsrc}}" src="{{imgsrc}}" mode = "aspectFill" bindtap = "toShow"></image>
+     <view class = "bottomEnd">
+     <button  class = "bottomBtnShare" plain='true' open-type='share'>  
+         <image class = "bottomImg" src = "../../asset/image/share.png">
+        </image> 
+     </button> 
+     <button  class = "bottomBtnDown" plain='true' open-type='contant' bindtap='saveImgToPhotosAlbumTap'>
+      <image class = "bottomImg" src = "../../asset/image/download.png">
+        </image> 
+     </button>
+     </view>
+    
+</view>

@@ -1,0 +1,97 @@
+.wallpaperItem:nth-child(2n+0){
+    width:345rpx;  
+    margin-right: 20rpx;
+    margin-left: 10rpx;
+    margin-top: 5rpx;
+    margin-bottom: 5rpx;  
+    /* box-sizing: border-box; */
+    /* overflow: hidden; */
+    /* box-shadow: 0 3px 0px 0px #DDD; */
+    border-radius: 5rpx;
+    background-color: #EEE;
+}
+.wallpaperItem:nth-child(2n+1){
+    width:345rpx;
+    margin-left: 20rpx;
+    margin-right: 10rpx;
+    margin-top: 5rpx;
+    margin-bottom: 5rpx;  
+    /* box-sizing: border-box; */
+    /* overflow: hidden; */
+    /* box-shadow: 0 3px 0px 0px #DDD; */
+    border-radius: 5rpx;
+    background-color: #EEE;
+}
+.container{
+    width: 750rpx;
+}
+.wallpaperList{
+    
+    flex-direction: row;
+    /* flex-wrap: wrap;  
+     align-items: space-between; 
+    justify-content: space-between; */
+}
+.MainView{
+    width: inherit;
+}
+.Title{
+    font-size: 60rpx;
+    font-family: Helvetica, Tahoma, Arial, "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    margin-left: 40rpx;
+    margin-top: 25rpx;
+    float:left;
+    width:inherit;
+    font-weight:700;
+    color: #ffffff;
+
+}
+.button{
+    width: 355rpx;
+    height: 40rpx;
+    vertical-align: middle;
+    font-size: 20rpx;
+    padding: 0rpx;
+    line-height: 40rpx;
+    border-style:solid;
+    border-width:1px; 
+    border-color: #FFFFFF;
+}
+.button::after{  
+  border:none;  
+  outline: none;  
+}  
+.NewWallpaper{
+    margin-right: 0rpx;
+    margin-left: auto;
+    border-top-left-radius: 7rpx;
+    border-bottom-left-radius: 7rpx;
+    border-top-right-radius: 0rpx;
+    border-bottom-right-radius: 0rpx;
+    font-family: Helvetica, Tahoma, Arial, "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+
+}
+.AllWallpaper{
+    margin-left: 0rpx;  
+    margin-right: auto;
+    border-top-left-radius: 0rpx;
+    border-bottom-left-radius: 0rpx;
+    border-top-right-radius: 7rpx;
+    border-bottom-right-radius: 7rpx;
+    font-family: Helvetica, Tahoma, Arial, "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+
+}
+.switchButton{
+    width: inherit;
+    display:flex;
+    flex-direction: row;
+    padding-top: 30rpx;
+    padding-bottom: 20rpx;
+}
+.btnSelected{
+    background-color: white;
+}
+.btnNotSelected{
+    background: #202022;
+    color: white;
+}

@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="Title">Gallery</view>
+    <view class="MainView">
+        <view class="switchButton">
+            <button class="button {{btnIsChecked?'btnSelected':'btnNotSelected'}}  NewWallpaper" bindtap = "btnTapGalleryChange" data-text="New">New</button>
+            <button class="button {{btnIsChecked?'btnNotSelected':'btnSelected'}} AllWallpaper" bindtap = "btnTapGalleryChange" data-text="All">All</button>
+        </view>
+        <scroll-view class="wallpaperList">
+            <image class="wallpaperItem" wx:for="{{wallpaperListInfo}}" wx:for-index="idx" wx:for-item="item" wx:key="ID" data-imgsrc = "{{item.downloadpath}}" src="{{item.downloadpath + thumb}}" mode = "aspectFill" bindtap = "toShow"></image>
+                
+        </scroll-view>
+    </view>
+</view>
