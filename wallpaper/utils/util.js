@@ -1,7 +1,7 @@
 class API {
     constructor() {
         this.KEY = 'WallpaperJson';
-        this.API = 'http://ali.afuture.me:8000/getwallpaper';
+        this.API = 'http://YOUR-DOMAIN/getwallpaper';
     }
 
     /**

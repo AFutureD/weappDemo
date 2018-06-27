@@ -3,4 +3,4 @@
 *.py[cod]
 local_settings.py
 db.sqlite3
-wallpaper_backend/.qiniu_pythonsdk_hostscache
+wallpaper_backend/.qiniu_pythonsdk_hostscache.json
